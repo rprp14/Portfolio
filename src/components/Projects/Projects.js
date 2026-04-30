@@ -9,8 +9,13 @@ import fitnessTrackerImg from "../../Assets/Projects/FitnessTracker.png";
 import notesImg from "../../Assets/Projects/tipCalc.png";
 import weatherCalcImg from "../../Assets/Projects/Weathercal.png";
 import amazonPrimeImg from "../../Assets/Projects/Amazon.png";
-
 import psoEdgeImg from "../../Assets/Projects/Pso.png";
+import courierImg from "../../Assets/Projects/Currier.png";
+import skillMartImg from "../../Assets/Projects/skillmart.png";
+import resultManImg from "../../Assets/Projects/ResultMan.png";
+import vrmImg from "../../Assets/Projects/vrm.png";
+import onlineCompilerImg from "../../Assets/Projects/OnlineCompiler.png";
+import blogImg from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -41,7 +46,7 @@ function Projects() {
               imgPath={fitnessTrackerImg}
               title="Fitness Tracker"
               description="A web app to track fitness activities, calories, and workouts with stats visualization."
-              ghLink="https://github.com/rprp14/Fitness-Tracker"
+              ghLink="https://github.com/rprp14/Fitness_Tracker."
               isBlog={false}
             />
           </Col>
@@ -87,7 +92,67 @@ function Projects() {
               imgPath={psoEdgeImg}
               title="PSO Edge Detection"
               description="Edge detection technique using Particle Swarm Optimization (PSO) combined with image sharpening filters, implemented in Python."
-              ghLink="https://github.com/rprp14/PSO_Edge_Detection"
+              ghLink="https://github.com/rprp14/adaptive_edge_detection_project"
+              isBlog={false}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={courierImg}
+              title="Courier Management System"
+              description="A courier management project for handling booking, delivery tracking, and shipment updates."
+              ghLink="#"
+              isBlog={false}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={skillMartImg}
+              title="Skill Mart"
+              description="A platform for managing and showcasing skills, courses, or learning resources."
+              ghLink="https://github.com/rprp14/skillmart"
+              isBlog={false}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={resultManImg}
+              title="Student Result System"
+              description="A student result management system for storing and viewing marks, grades, and results."
+              ghLink="https://github.com/rprp14/student-result-management-system"
+              isBlog={false}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={vrmImg}
+              title="VRM"
+              description="A virtual resource management project for organizing and monitoring system records."
+              ghLink="https://github.com/rprp14/vrm_tprm_backend"
+              isBlog={false}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={onlineCompilerImg}
+              title="Online Compiler"
+              description="A browser-based online compiler and code editor for writing and testing code quickly."
+              ghLink="https://github.com/rprp14/Online-Compiler-IDE"
+              isBlog={false}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={blogImg}
+              title="Personal Blog"
+              description="A personal blog project for sharing posts, ideas, and updates."
+              ghLink="https://github.com/rprp14/pranjali-portfolio1"
               isBlog={false}
             />
           </Col>
