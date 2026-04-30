@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/resume (2).pdf"; // <-- your resume here
+import pdf from "../../Assets/Pranjali Bodke-Resume2.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -23,7 +23,7 @@ function ResumeNew() {
 
         {/* Heading with your name */}
         <Row style={{ justifyContent: "center", marginBottom: "20px" }}>
-          <h2 className="purple">Pranjali Bodke – Resume</h2>
+          <h2 className="purple">Pranjali Bodke - Resume</h2>
         </Row>
 
         {/* Top Download Button */}
